@@ -3,7 +3,9 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 dataframe = pd.read_csv("git-log-2020.csv")
 dataframe['date'] = pd.to_datetime(dataframe['date'])
-print(dataframe.groupby(pd.Grouper(key='date', freq='M'))['email'].value_counts().sort_values(ascending = False).head(3))
+top_three = dataframe.groupby(pd.Grouper(key='date', freq='M'))['email'].value_counts().sort_values(ascending = False).head(3)
+
+print(top_three)
 
     
 # 
