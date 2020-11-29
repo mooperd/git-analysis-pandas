@@ -7,6 +7,6 @@ dataframe['date'] = pd.to_datetime(dataframe['date'])
 grouped_dataframe_count = dataframe.groupby([pd.Grouper(key='date', freq='M'), "email"])[["subject"]].count()
 
 # Select all the users that have contributed more than 20 times.
-print(grouped_dataframe[grouped_dataframe['subject'] > 20])
+print(grouped_dataframe_count[grouped_dataframe_count['subject'] > 20])
 
 
