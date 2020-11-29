@@ -32,7 +32,7 @@
 "e9c91f1f2","6774676+eumiro@users.noreply.github.com","2020-11-26","DOC: Remove repeated words and wrong /it's/ usage (#38047)"
 "acdc94fad","jbrockmendel@gmail.com","2020-11-26","CLN: dont mix Int64Index into PeriodIndex (#38045)"
 "d0afefa65","jbrockmendel@gmail.com","2020-11-26","BUG: NumericIndex.insert(0, False) casting to int (#38030)"
-"27989a64b","jorisvandenbossche@gmail.com","2020-11-26","REGR: revert "CLN: _consolidate_inplace less" / fix regression in fillna() (#34407)"
+"27989a64b","jorisvandenbossche@gmail.com","2020-11-26","REGR: revert CLN: _consolidate_inplace less / fix regression in fillna() (#34407)"
 "94179cd6a","48889395+arw2019@users.noreply.github.com","2020-11-26","CLN/TST: delegate StringArray.fillna() to parent class + add tests (#37987)"
 "71bf9fad9","jbrockmendel@gmail.com","2020-11-26","REF: Share code between NumericIndex subclasses (#38027)"
 "43fa16005","contribute@tensortable.com","2020-11-26","DOC: Clean .ix references in indexing.rst (#38080)"
